@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	font-size:100%;
+}
+
+body {
+	font: 62.5%/1.5 Verdana, Helvetica, Arial, sans-serif;
+	background: #fff;
+	color: #000;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.0em;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+#formTable {
+    font-size: 1.8em;
+}
+
+#grid td {
+    font-weight: bold;
+    font-size: 2.0em;
+    border: none;
+    background: #000;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
+
+button.numberControl {
+    font-size:0.6em;
+    margin: -10px 0;
+    height: 20px;
+}

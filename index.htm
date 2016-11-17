@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Test</title>
+        <meta charset = "utf-8" />
+        <script src = "Grid.js" type = "text/javascript"></script>
+        <script src = "main.js" type = "text/javascript"></script>
+        <link type = "text/css" rel = "stylesheet" href = "main.css" />
+    </head>
+    <body>
+        
+        <div id="wrapper">
+        <article>
+            <header>
+            <h1>2048</h1>
+            </header>
+            
+            <section>
+                <h2> </h2>
+                <form name="setting" id="setting" method = "get">
+                
+                    <table id="formTable">
+                    <tr>
+                        <td><label for="rows">Rows: </label></td>
+                        <td><input id = "rows" min = "4" max = "32" name = "rows" type = "number" size="2" value = "4" /></td>               
+                        <td><label for="columns">Columns: </label></td>
+                        <td><input id = "columns" min = "4" max = "32" name = "columns" type = "number" size="2" value = "4" /></td>
+                        <td><label for="target">Target: </label></td>
+                        <td><input id = "target" min="4" max = "4096" name = "target" type = "number" size="2" value = "2048" disabled /></td>
+                        <td><span class = "numberControl">
+                            <button class = "numberControl" type="button" name = "up">Λ</button>
+                            <br />
+                            <button class = "numberControl" type="button" name = "down">V</button>
+                        </span></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><button id = "new" type="submit">New</button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </table>
+
+                    
+                    <table id = "grid"></table>
+
+                
+                </form>
+            </section>
+            
+            <footer>
+                An implementation by Sannidhya Shukla <br/>
+                ALL RIGHTS RESERVED &#0169; 2015
+            </footer>
+            
+            </article>
+        </div>
+        
+    </body>
+</html>
